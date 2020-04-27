@@ -30,8 +30,3 @@ class LongestCommonSubsequence {
         return ans
     }
 }
-
-fun main() {
-    val longestCommonSubsequence = LongestCommonSubsequence()
-    println(longestCommonSubsequence.longestCommonSubsequence("abc", "def"))
-}
