@@ -19,9 +19,6 @@ class LongestCommonSubsequence {
                 MX = max(MX, dp[(index1 + 1) % 2][index2])
                 dp[index1 % 2][index2] = max(dp[(index1 + 1) % 2][index2], dp[index1 % 2][index2])
             }
-            for (i in 0 until N)
-                print("${dp[index1 % 2][i]} ")
-            println()
         }
         var ans = 0
         for (i in 0 until N) {
