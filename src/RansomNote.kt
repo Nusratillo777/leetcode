@@ -22,8 +22,3 @@ class RansomNote {
         return true
     }
 }
-
-fun main() {
-    val ransomNote = RansomNote()
-    println(ransomNote.canConstruct("a", "b"))
-}
