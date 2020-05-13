@@ -20,5 +20,5 @@ class FloodFill {
 fun main() {
     val b = arrayOf(intArrayOf(1, 1, 1), intArrayOf(1, 1, 0), intArrayOf(1, 0, 1))
     val floodFill = FloodFill()
-    println(floodFill.floodFill(b, 1, 1, 2))
+    println(floodFill.floodFill(b, 1, 1, 1))
 }
